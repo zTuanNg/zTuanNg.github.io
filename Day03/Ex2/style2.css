@@ -85,6 +85,7 @@ textarea{
 margin: 10px 0;
 text-align: center;
 
+
 }
 button{
  
@@ -92,6 +93,7 @@ button{
   background-color: #956FE5;
   color: #fff;
   border:none;
+  font-size: 16px;
   
 }
 
