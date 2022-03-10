@@ -11,6 +11,7 @@ body{
 }
 a{
   text-decoration: none;
+  cursor: pointer;
 }
 .course-thumbnail img{
   width: 100%;
@@ -93,6 +94,9 @@ li {
 
 .container-1 {
   background-color: #464646;
+}
+h2{
+  font-weight:400;
 }
 .footer {
   /* max-width: 1250px;
