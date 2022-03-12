@@ -38,14 +38,10 @@ ul {
   margin-left: 30px;
 
   padding: 10px 0;
-  
 }
 .menu-item {
   width: 200px;
   /* position: relative; */
-
- 
-  
 }
 
 .menu-item p {
@@ -61,16 +57,14 @@ ul {
   align-items: center;
 
   /* background-color: rgb(245,245,245); */
-  background-color:#fff;
-  
+  background-color: #fff;
 }
 
-.menu-item li p>a {
-  max-width:170px;
+.menu-item li p > a {
+  max-width: 170px;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis; 
-  
+  text-overflow: ellipsis;
 }
 
 .menu-item p .icon {
@@ -79,7 +73,6 @@ ul {
 /* .menu-item-1 p .icon {
   display: none;
 } */
-
 
 .menu-item:hover > p,
 .menu-item:hover > p a {
@@ -102,7 +95,7 @@ ul {
   color: chocolate;
 }
 
-.sub-menu{
+.sub-menu {
   width: 200px;
   position: absolute;
   top: 68px;
@@ -113,10 +106,9 @@ ul {
   /* margin: 0 2px; */
   box-shadow: 0 0 2px 0 rgb(0 0 0 / 25%);
   padding: 10px 0;
-  
 }
 
-.sub-menu-1{
+.sub-menu-1 {
   position: absolute;
   top: 0;
   left: 200px;
@@ -129,13 +121,12 @@ ul {
 
 .menu-item:hover .sub-menu {
   display: block;
-  
 }
-.menu-item-1:hover .sub-menu-1{
+.menu-item-1:hover .sub-menu-1 {
   display: block;
 }
-li:hover{
-  background-color: #rgb(245,245,245)
+li:hover {
+  background-color: rgb(245, 245, 245);
 }
 
 /* li:hover .menu-item>p{
