@@ -10,6 +10,7 @@ body{
   line-height:1.5;
 
   background-color: #f4f7fa;
+  /* background-color: #464646; */
 }
 a{
   text-decoration: none;
@@ -28,6 +29,7 @@ a{
   max-width: 1200px;
   margin: 100px auto;
   display: flex;
+ 
 
   
 }
@@ -285,10 +287,12 @@ ul{
 .messenger{
   position:sticky;
   
-  /* background-color: red; */
+  
   bottom:100px;
   
   right:100px;
+  
+   
 
 }
 
@@ -298,5 +302,6 @@ ul{
   color: blue;
   font-size:60px;
   padding-left: 92%;
+  
   
 }
