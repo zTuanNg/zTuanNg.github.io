@@ -67,6 +67,10 @@ h2{
 		
 	}
 
+  50%{
+    opacity: 0.5;
+  }
+
 	100% {
 		opacity: 1;
 		/* display: block; */
@@ -74,9 +78,11 @@ h2{
 }
 
 .card:hover .text{
-  transform: translateY(0);
+  /* transform: translateY(0);
   display:block;
-  animation: display 2s;
+  animation: display 2s; */
+
+  height:131px;
   
 }
 
@@ -119,14 +125,17 @@ h2{
   margin-bottom: 10px;
   font-size:1.2rem;
   line-height:1.7;
-  transform: translateY(150px);
-  /* transition: all 0.5s; */
+  /* transform: translateY(150px); */
+  transition: all 0.5s ease-in-out;
   /* transition-delay: 1s; */
   color: #464646;
 
+  height: 0;
+  overflow: hidden;
+
 
   /* visibility: hidden; */
-  display:none;
+  /* display:none; */
   
   
 }
@@ -159,7 +168,13 @@ h2{
   /* position: absolute; */
   /* bottom:20px; */
 
+  transition: all 0.5s;
+
   
+}
+
+.card:hover .time-cmt{
+
 }
 
 
