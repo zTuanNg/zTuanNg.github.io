@@ -100,7 +100,7 @@ h2{
   position: relative;
   overflow: hidden;
 
-  transition: all 0.3s;
+  transition: all 0.5s;
 }
 
 .body-card{
