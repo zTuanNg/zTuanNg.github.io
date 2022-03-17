@@ -5,6 +5,7 @@
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
   height: 100vh;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   overflow: hidden;
@@ -2782,15 +2783,17 @@ p {
   font-family: Tahoma, sans-serif;
   color: #222;
   text-align: center;
-  margin: 80px;
-  margin-bottom: 60px;
+  margin: 40px 80px;
+  /* margin-bottom: 60px; */
   outline-color: #333;
   outline-style: dotted;
   font-size: 30px;
 }
 
 .signature{
+  /* margin: 10px 0; */
  margin-left: 200px;
+
 }
 
  .heart{
@@ -2870,3 +2873,10 @@ p {
     transform: translateY(0px);
   }
 }
+
+p{
+  font-family: 'Hurricane', cursive;
+  font-size:32px;
+  margin: 10px 30px ;
+}
+
